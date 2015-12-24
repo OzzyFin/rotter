@@ -1,4 +1,3 @@
-php```
 <?php
 	// add credits to j7mbo
 	
@@ -40,4 +39,3 @@ php```
 		echo "you don't have access to here, get out";
 	}
 ?>
-```php
