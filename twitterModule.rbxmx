@@ -1,3 +1,5 @@
+```lua
+
 -- THE MODULESCRIPT FOR ROBLOX --
 
 local secretkey = "123456789" -- should be the same key as in settings.php
@@ -15,3 +17,5 @@ twitter.Request= function(self,method,api,data)
 end
 
 return twitter
+
+```
