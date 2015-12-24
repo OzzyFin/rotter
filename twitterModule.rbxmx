@@ -7,7 +7,7 @@ local url = "https://www.example.com/handler.php" -- the url for handler.php on 
 
 local twitter = {}
 
-twitter.Request= function(self,method,api,data)
+twitter.Request = function(self,method,api,data)
 	if type(method) ~= "string" then
 		error 'request method must be a string'
 	end
