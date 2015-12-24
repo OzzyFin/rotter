@@ -1,6 +1,4 @@
 <?php
-	// add credits to j7mbo
-	
 	function _URLEncode($array){
 		$a = array();
 		foreach ($array as $k => $v){
