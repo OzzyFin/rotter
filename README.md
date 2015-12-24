@@ -23,7 +23,7 @@ Set ModuleScript's URL and optional secretkey, also all the settings from settin
 Now you should be good to go for the actual scripting part (check examples folder for more):
 
 All the ModuleScript contains is one function, Request, which will send a simple POST request to the URL provided.
-It holds 3 parameters: RequestMethod (POST or GET), API (all of them can be found from the first link), data (an array of all the parameters for the API)
+It holds 3 parameters: string RequestMethod (POST or GET), string API (all of them can be found from the first link), array Data (a list of all the parameters for the API)
 
 An example code for updating your status (tweeting) would be:
 
