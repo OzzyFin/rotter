@@ -28,7 +28,11 @@ It holds 3 paratmeters; RequestMethod (POST or GET), API (all of them can be fou
 An example code for updating your status (tweeting) would be:
 
 local twitter = require(game.ServerScriptService.twitterModule) -- path to the ModuleScript
-
+```lua
 twitter:Request("POST","statuses/update.json",{ -- POST is the request method, statuses/update.json is the API
   status = "Hello Twitter World" -- status is the parameter (all of these can also be found from the REST API documentation)
 })
+
+```
+
+
