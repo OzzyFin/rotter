@@ -29,11 +29,13 @@ An example code for updating your status (tweeting) would be:
 
 ```lua
 
-local twitter = require(game.ServerScriptService.twitterModule) -- path to the ModuleScript
+local twitter = require(script.Parent.twitterModule) -- path to the ModuleScript
 
-twitter:Request("POST","statuses/update.json",{ -- POST is the request method, statuses/update.json is the API
-  status = "Hello Twitter World" -- status is the parameter (all of these can also be found from the REST API documentation)
-})
+twitter:Request("POST","statuses/update.json", -- POST is the request method, statuses/update.json is the API
+	{ 
+  		status = "Hello Twitter World" -- status is the argumenet (all parameters can also be found from the REST API documentation)
+	}
+)
 
 ```
 
