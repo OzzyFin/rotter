@@ -36,6 +36,6 @@
 			echo 'request method has to be either POST or GET';
 		}
 	}else{
-		echo "you don't have access to here, get out";
+		echo "you don't have access to here";
 	}
 ?>
