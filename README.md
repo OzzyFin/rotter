@@ -10,7 +10,9 @@ Remember to place all the .php files inside the same folder.
 
 **How to actually use it**
 
-First of all you need a webhost to run this all on. Obviously paid hosts are better, but if you are using this just for testing and/or don't have the money to pay for a webhost, I'd recommend https://heroku.com (follow the getting started with PHP tutorial). It took me a while to get the basic stuff down, but it's been working great since then. A bit difficult to manipulate many apps with the cmd bar though. Any webhost with PHP support should work though.
+I'll explain the use with my ModuleScript.
+
+First of all you need a webhost to run this all on. Obviously paid hosts are better, but if you are using this just for testing and/or don't have the money to pay for a webhost, I'd recommend https://heroku.com (follow the getting started with PHP tutorial). It took me a while to get the basic stuff down, but it's been working great since then. A bit difficult to manipulate many apps with the cmd bar though. Any webhost with PHP support should work.
 
 Second, you need to create a Twitter Application on https://apps.twitter.com/.
 
