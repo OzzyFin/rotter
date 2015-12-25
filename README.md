@@ -10,6 +10,8 @@ I don't know if I'm going to add anything to this, it is really simple and made 
 
 Remember to place all the .php files inside the same folder.
 
+For debugging I suggest printing the result of your Request call and possible tables out of the result.
+
 **How to actually use it**
 
 I'll explain the use with my ModuleScript.
