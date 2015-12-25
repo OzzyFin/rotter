@@ -1,6 +1,8 @@
+-- prints out a list of tweets from defined user
+
 local twitter = require(script.Parent.twitterModule)
 
-local result = twitter:Request("GET","statuses/user_timeline.json",
+local result = twitter:Request("GET","statuses/user_timeline.json", 
 	{
 		screen_name = "OzzyOnRBX",	
 		count = "5"
